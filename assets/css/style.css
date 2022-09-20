@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--VeryLightGray);
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-weight: 200;
+  font-size: 2.4rem;
+  color: var(--VeryDarkBlue);
+}
+header p:first-of-type {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--VeryDarkBlue);
+}
+header p:last-of-type {
+  font-weight: 400;
+  margin: 1.5rem 0 7.3rem 0;
+  font-size: 1.5rem;
+  color: var(--GrayishBlue);
+  max-width: 55ch;
+}
+.sm-container {
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 9rem 0 5.5rem 0;
+}
+.sm-card {
+  border-radius: 0.5rem;
+  border-top: 0.5rem solid var(--Blue);
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1.5rem 0.2rem var(--GrayishBlue);
+  font-weight: 400;
+  padding: 2.5rem 3rem;
+  max-width: 35.6rem;
+  opacity: 0;
+}
+
+.sm-card__pic {
+  align-self: flex-end;
+  width: 5.5rem;
+}
+.sm-card__title {
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  font-weight: 600;
+  color: var(--VeryDarkBlue);
+  font-size: 2rem;
+}
+.sm-card__description {
+  margin-bottom: 3.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+.sm-card--green {
+  border-color: var(--Cyan);
+}
+.sm-card--orange {
+  border-color: var(--Red);
+}
+.sm-card--red {
+  border-color: var(--Orange);
+}
+.sm-card--blue {
+  border-color: var(--Blue);
+}

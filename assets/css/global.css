@@ -1,0 +1,68 @@
+/* poppins-200 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/poppins-v20-latin-200.eot");
+  src: local(""),
+    url("../fonts/poppins-v20-latin-200.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/poppins-v20-latin-200.woff2") format("woff2"),
+    url("../fonts/poppins-v20-latin-200.woff") format("woff"),
+    url("../fonts/poppins-v20-latin-200.ttf") format("truetype"),
+    url("../fonts/poppins-v20-latin-200.svg#Poppins") format("svg");
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.eot");
+  src: local(""),
+    url("../fonts/poppins-v20-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"),
+    url("../fonts/poppins-v20-latin-regular.woff") format("woff"),
+    url("../fonts/poppins-v20-latin-regular.ttf") format("truetype"),
+    url("../fonts/poppins-v20-latin-regular.svg#Poppins") format("svg");
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.eot");
+  src: local(""),
+    url("../fonts/poppins-v20-latin-600.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/poppins-v20-latin-600.woff2") format("woff2"),
+    url("../fonts/poppins-v20-latin-600.woff") format("woff"),
+    url("../fonts/poppins-v20-latin-600.ttf") format("truetype"),
+    url("../fonts/poppins-v20-latin-600.svg#Poppins") format("svg");
+}
+
+:root {
+  /*---Primary colors---*/
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  /*---Neutral colors---*/
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+}
+p,
+h1,
+div,
+body {
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins";
+}
+* {
+  box-sizing: border-box;
+}
