@@ -72,10 +72,10 @@ header p:last-of-type {
   border-color: var(--Cyan);
 }
 .sm-card--orange {
-  border-color: var(--Red);
+  border-color: var(--Orange);
 }
 .sm-card--red {
-  border-color: var(--Orange);
+  border-color: var(--Red);
 }
 .sm-card--blue {
   border-color: var(--Blue);
