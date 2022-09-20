@@ -48,7 +48,7 @@ header p:last-of-type {
   font-weight: 400;
   padding: 2.5rem 3rem;
   max-width: 35.6rem;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .sm-card__pic {
