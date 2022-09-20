@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   $(".sm-card:in-viewport").animate({ opacity: "1" }, 2000);
   $.appear(".sm-card", {});
   $(".sm-card").on("appear", function () {
-    $(this).animate({ opacity: "1" }, "slow");
+    $(this).animate({ opacity: "1" }, 2000);
   });
 });
