@@ -35,6 +35,7 @@ Users should be able to:
 - Mobile-first workflow
 - [jQuery](https://jquery.com/) - JS library
 - [jquery-appear](https://github.com/morr/jquery.appear) - JS plugin
+- [isInViewport](https://github.com/zeusdeux/isInViewport) - JS plugin
 
 ## Author
 
