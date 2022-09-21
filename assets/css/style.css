@@ -7,8 +7,10 @@ body {
   background-color: var(--VeryLightGray);
 }
 main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: start;
+  gap: 2.5rem;
 }
 h1 {
   font-weight: 200;
@@ -42,12 +44,12 @@ header p:last-of-type {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 2.5rem;
   background-color: #fff;
   box-shadow: 0 0.5rem 1.5rem 0.2rem var(--GrayishBlue);
   font-weight: 400;
   padding: 2.5rem 3rem;
   max-width: 35.6rem;
+  box-sizing: border-box;
   opacity: 0;
 }
 
