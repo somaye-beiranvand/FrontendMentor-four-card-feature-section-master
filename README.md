@@ -32,6 +32,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 - Mobile-first workflow
 - [jQuery](https://jquery.com/) - JS library
 - [jquery-appear](https://github.com/morr/jquery.appear) - JS plugin
